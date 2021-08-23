@@ -1,0 +1,14 @@
+{
+    "location":"us-ma",
+    "msg_id":"{{chance.natural({ min: 10000000, max: 99999999})}}",
+    "store_id": "{{chance.natural({ min: 4444444, max: 9999999})}}",
+    "name": "$name",
+    "age": "$age",
+    "emails": {
+        "$array": {
+            "of": "$email",
+            "number": 3
+        }
+    },
+    "large_para" : "{{chance.paragraph()}}"
+}
