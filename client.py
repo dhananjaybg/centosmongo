@@ -13,7 +13,7 @@ import pathlib
 
 
 
-mongo_url = "mongodb+srv://user:pass@democluster.c1xrj.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
+mongo_url = ""
 db = "claims2"
 collection = "cvsaudit"
 fake = Faker()
